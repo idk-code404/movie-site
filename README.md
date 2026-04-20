@@ -32,5 +32,5 @@ A production-ready, client-side movie streaming website that integrates the VidL
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/idk-code404/movie-site.git
    cd movie-site
