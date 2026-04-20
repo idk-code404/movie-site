@@ -1,0 +1,22 @@
+{
+  "name": "movie-stream-site",
+  "version": "1.0.0",
+  "description": "A minimalist movie website with VidLink.pro streaming",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["movies", "streaming", "vidlink", "tmdb"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/tests/setup.js"]
+  }
+}
