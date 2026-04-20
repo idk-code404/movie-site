@@ -1,7 +1,7 @@
 // config.js - Load environment variables
 // In production, replace with actual values or use a build step.
 window.ENV = {
-  TMDB_API_KEY: 'YOUR_TMDB_API_KEY', // Replace with your key
+  TMDB_API_KEY: '__TMDB_API_KEY__', // Replace with your key
   TMDB_BASE_URL: 'https://api.themoviedb.org/3',
   TMDB_IMAGE_BASE: 'https://image.tmdb.org/t/p/w500',
   VIDLINK_API_BASE: 'https://vidlink.pro/api/vidlink'
